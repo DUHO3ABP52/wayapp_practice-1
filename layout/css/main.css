@@ -1,0 +1,114 @@
+/* спецификация */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #010101;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+
+/* Хедер */
+.header {
+    background: #fcdb00;
+    color: #010101;
+    padding: 58px;
+    padding-bottom: 105px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 0 37px;
+}
+
+.menu__item a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.ofert {
+    margin-top: 117px;
+}
+
+.ofert__title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.ofert__intro {
+    font-size: 20px;
+    line-height: 1,3em;
+}
+
+.ofert__text {
+    font-size:16px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.icons__item {
+    margin-right: 30px;
+}
+
+.icons__item a {
+    font-size: 43px;
+    color: #010101; 
+    transition: 0.5s;
+}
+
+.icons__item a:hover {
+    color: aliceblue;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+}
+
+/* вторая страница */
+
+.featurs__icons {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #010101;
+}
+
+.featurs__text {
+    color: #898989
+}
+
